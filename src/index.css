@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DotGothic16&display=swap");
+
+
+* {
+  margin: 0;
+  padding: 0;
+  color: #FFF;
+}
+
+/*@font-face {*/
+/*  font-family: 'Retro Land Mayhem';*/
+/*  font-weight: 400;*/
+/*  font-style: normal;*/
+/*  src: local('Druk Wide'), url(./assets/fonts/retro-land-mayhem.ttf) format('truetype');*/
+/*}*/
+
+/*@font-face {*/
+/*  font-family: 'Mayak';*/
+/*  font-weight: 700;*/
+/*  font-style: normal;*/
+/*  src: local('Druk Wide'), url(./assets/fonts/SilkscreenBold.ttf) format('truetype');*/
+/*}*/
+
+/*@font-face {*/
+/*  font-family: 'Silkscreen';*/
+/*  font-weight: 700;*/
+/*  font-style: normal;*/
+/*  src: local('Druk Wide'), url(./assets/fonts/SilkscreenBold.ttf) format('truetype');*/
+/*}*/
+
+/*@font-face {*/
+/*  font-family: 'Sonic1TitleScreenFilled';*/
+/*  font-weight: 700;*/
+/*  font-style: normal;*/
+/*  src: local('Druk Wide'), url(./assets/fonts/Sonic1TitleScreenFilled.ttf) format('truetype');*/
+/*}*/
+
+/*@font-face {*/
+/*  font-family: 'DePixelBreit';*/
+/*  font-style: normal;*/
+/*  src: local('Druk Wide'), url(./assets/fonts/DePixelBreit.ttf) format('truetype');*/
+/*}*/
+
+

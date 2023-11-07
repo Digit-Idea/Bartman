@@ -1,0 +1,39 @@
+@import "../../assets/style/app";
+
+.texts {
+  padding: 80px 24px 0;
+
+  @include desktop {
+    padding: 138px 60px 0;
+    display: flex;
+  }
+
+  .title {
+    @include H2;
+    text-align: left;
+    line-height: 36px;
+
+    @include desktop {
+      font-size: 43px;
+      width: 370px;
+      flex-shrink: 0;
+      line-height: 56px;
+    }
+  }
+
+  .text {
+    @include RetroLandMayhem;
+    font-size: 14px;
+    line-height: 150%;
+    text-transform: capitalize;
+    color: #D0D0D0;
+    margin-top: 16px;
+
+    @include desktop {
+      margin-top: 0;
+      margin-left: 16px;
+      font-size: 16px;
+      line-height: 170%;
+    }
+  }
+}

@@ -1,0 +1,64 @@
+@import "../../../assets/style/app.scss";
+
+.buttonCustom {
+  text-decoration: none;
+  display: block;
+  //@include button();
+  @include centerRow();
+  position: relative;
+
+  .imgMobile, .imgDesktop {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+  }
+
+  .childrenWrapper {
+    @include centerRow();
+    position: relative;
+    z-index: 2;
+
+    p {
+      color: #FCC23B;
+    }
+
+    &_click {
+      //transform: translateY(2px);
+      color: #FCC23B;
+
+
+    }
+  }
+
+  &:hover .childrenWrapper p {
+      color: #332B51;
+  }
+
+  &:hover .childrenWrapper_click p {
+    color: #FCC23B;
+  }
+
+  .imgMobile {
+    @include onlyMobile() {
+      opacity: 0;
+    }
+
+    &_show {
+      opacity: 1;
+    }
+  }
+
+  .imgDesktop {
+    @include onlyDesktop() {
+      opacity: 0;
+    }
+
+    &_show {
+      opacity: 1;
+    }
+  }
+
+}

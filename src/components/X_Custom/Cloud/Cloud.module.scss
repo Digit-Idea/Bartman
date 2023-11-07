@@ -1,0 +1,18 @@
+@import "../../../assets/style/app";
+
+.cloud {
+  position: absolute;
+  top: 0;
+  left: -10%;
+  z-index: 5;
+  transform: translate(-50%, -50%);
+  width: 100px;
+
+  @include desktop {
+    width: 160px;
+  }
+
+  svg {
+    width: 100%;
+  }
+}

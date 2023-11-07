@@ -1,0 +1,257 @@
+@import "./../../assets/style/app";
+
+.howToPlay {
+  overflow: hidden;
+  position: relative;
+  padding-top: 313px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 500px;
+  background: url(../../assets/png/card/back.png);
+  background-position: center;
+  background-size: cover;
+
+
+  @include desktop {
+    padding-top: 580px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 330px;
+  }
+
+  .logo {
+    position: absolute;
+    z-index: 5;
+    top: 0px;
+    left: 50%;
+    width: 385px;
+    transform: translateX(-50%);
+
+    @include desktop {
+      width: 938px;
+      top: -142px;
+    }
+  }
+
+  .content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+
+    @include desktop {
+      width: 1050px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .title {
+      @include H2();
+    }
+
+    .items {
+      margin-top: 30px;
+
+      @include desktop {
+        margin-top: 52px;
+      }
+
+      .item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        @include desktop {
+          flex-direction: row;
+          align-items: normal;
+
+          &:nth-child(odd) {
+            flex-direction: row-reverse;
+            justify-content: flex-end;
+
+            .textBlock {
+              margin-left: 50px;
+            }
+          }
+
+          &:nth-child(even) {
+            .card {
+              margin-left: 50px;
+            }
+
+          }
+        }
+
+        &:not(:first-child) {
+          margin-top: 20px;
+
+          @include desktop {
+            margin-top: 50px;
+          }
+        }
+
+        .textBlock {
+          display: flex;
+          width: 312px;
+
+          @include desktop {
+            width: auto;
+            margin-top: 46px;
+          }
+
+          .number {
+            position: relative;
+            width: 40px;
+            height: 40px;
+
+            @include desktop {
+              width: 72px;
+              height: 72px;
+            }
+
+            svg {
+              position: relative;
+              z-index: 1;
+              width: 40px;
+              height: 40px;
+
+              @include desktop {
+                width: 72px;
+                height: 72px;
+              }
+            }
+
+            p {
+              position: absolute;
+              z-index: 2;
+              @include absoluteCenter;
+              @include Mayak;
+              font-size: 20px;
+              line-height: 150%;
+              color: #343434;
+
+              @include desktop {
+                font-size: 40px;
+              }
+
+            }
+          }
+
+          .texts {
+            margin-left: 10px;
+
+            @include desktop {
+              margin-left: 28px;
+              width: 400px;
+            }
+
+            .itemTitle {
+              @include RetroLandMayhem;
+              font-size: 16px;
+              line-height: 170%;
+
+              @include desktop {
+                font-size: 24px;
+              }
+            }
+
+            .textItems {
+
+              .textItem {
+                margin-top: 10px;
+                @include RetroLandMayhem;
+                font-size: 14px;
+                line-height: 170%;
+                color: #D0D0D0;
+
+                @include desktop {
+                  font-size: 16px;
+                }
+
+                a {
+                  color: #FFF;
+                }
+
+                span {
+                  color: #FCC23B;
+                }
+              }
+            }
+
+
+          }
+        }
+
+        .card {
+          position: relative;
+          width: 312px;
+          height: 198px;
+          margin-top: 20px;
+
+          @include desktop {
+            margin-top: 0;
+            width: 500px;
+            height: 318px;
+          }
+
+          svg {
+            position: relative;
+            z-index: 1;
+            width: 312px;
+            height: 198px;
+
+            @include desktop {
+              width: 500px;
+              height: 318px;
+            }
+          }
+
+          .img {
+            position: absolute;
+            @include absoluteCenter;
+            z-index: 2;
+            height: 171px;
+            width: auto;
+
+            @include desktop {
+              height: 275px;
+            }
+
+          }
+        }
+
+
+      }
+
+
+    }
+
+    .btnWrapper {
+      margin-top: 40px;
+
+      @include desktop {
+        margin-top: 50px;
+        width: 1050px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .btn {
+        @include RetroLandMayhem;
+        font-size: 16px;
+        line-height: 130%;
+        margin-left: auto;
+        margin-right: auto;
+
+        @include desktop {
+          margin-left: 100px;
+        }
+      }
+    }
+
+
+
+  }
+
+
+}

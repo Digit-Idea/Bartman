@@ -1,0 +1,55 @@
+@import "../../assets/style/app";
+
+.timer {
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+  //background-image: url(../../assets/gif/timer.gif);
+  //background-size: cover;
+  //background-position: center;
+  //height: 643px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding-bottom: 26px;
+
+  .back {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    object-fit: cover;
+    object-position: center;
+  }
+
+
+  @include desktop {
+    height: 743px;
+    padding-bottom: 53px;
+  }
+
+  .title {
+    position: relative;
+    z-index: 10;
+    @include H2;
+  }
+
+  .time {
+    position: relative;
+    z-index: 10;
+    @include Mayak;
+    font-size: 31px;
+    line-height: 150%;
+    color: #FCC23B;
+
+    @include desktop {
+      font-size: 64px;
+    }
+  }
+
+}

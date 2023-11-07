@@ -1,0 +1,97 @@
+@import "../../assets/style/app";
+
+.roadmap {
+  padding-top: 80px;
+
+  @include desktop {
+    padding-top: 130px;
+  }
+
+  .title {
+    @include H2;
+  }
+
+  .cardsMobile {
+    margin-top: 30px;
+    @include onlyMobile();
+  }
+
+  .cardsDesktop {
+    @include onlyDesktop(flex);
+    margin-top: 50px;
+    justify-content: center;
+  }
+
+  .card {
+    position: relative;
+    width: 312px;
+    height: 209px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 32px;
+
+    @include desktop {
+      width: 265px;
+      height: 290px;
+      padding-top: 50px;
+
+      &:not(:first-child) {
+        margin-left: 30px;
+      }
+    }
+
+    .back {
+      position: absolute;
+      display: block;
+      top: 0;
+      left: 0;
+      z-index: 1;
+      width: 312px;
+      height: 209px;
+
+      @include desktop {
+        width: 265px;
+        height: 290px;
+      }
+    }
+
+    .title {
+      position: relative;
+      z-index: 2;
+      @include Mayak;
+      font-size: 24px;
+      line-height: 120%;
+      color: #343434;
+    }
+
+    .texts {
+      margin-top: 14px;
+
+      @include desktop {
+        margin-top: 22px;
+      }
+
+      .text {
+        position: relative;
+        z-index: 2;
+        @include RetroLandMayhem;
+        //margin-top: 4px;
+        font-size: 14px;
+        line-height: 130%;
+        text-align: center;
+        color: #606060;
+        width: 272px;
+
+        @include desktop {
+          font-size: 16px;
+          //line-height: 60%;
+          width: 225px;
+        }
+      }
+    }
+
+
+  }
+
+}

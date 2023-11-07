@@ -1,0 +1,32 @@
+@import "../../assets/style/app";
+
+.video {
+  padding-top: 40px;
+  //padding-left: 24px;
+  //padding-right: 24px;
+
+  @include desktop {
+    padding-top: 120px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .inner {
+    display: flex;
+    justify-content: center;
+
+    box-sizing: border-box;
+    border-top: 2px solid #182238;
+    border-bottom: 2px solid #182238;
+    height: calc((9/16) * 100vw);
+
+    @include desktop {
+      border-width: 8px;
+      width: 1270px;
+      height: 715px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+  }
+}

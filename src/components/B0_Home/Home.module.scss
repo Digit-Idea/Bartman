@@ -1,0 +1,91 @@
+@import "../../assets/style/app";
+
+.home {
+  position: relative;
+  overflow: hidden;
+  //height: 690px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 160px;
+  box-sizing: border-box;
+
+  background-image: url(../../assets/png/B0_Home/back.png);
+  background-position: center bottom;
+  background-size: cover;
+
+  @include desktop {
+    height: 1046px;
+    padding-bottom: 317px;
+  }
+
+  .logo {
+    position: absolute;
+    z-index: 10;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 10px;
+    width: 385px;
+    height: auto;
+
+    @include desktop {
+      top: auto;
+      bottom: 250px;
+      width: 938px;
+    }
+  }
+
+  .bartman {
+    position: absolute;
+    z-index: 20;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 395px;
+    height: auto;
+
+    @include desktop {
+      width: 987px;
+    }
+  }
+
+  .buttons {
+    position: relative;
+    z-index: 30;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    //margin-top: 504px;
+
+    @include desktop {
+      //margin-top: 670px;
+    }
+
+    .btn {
+      &:last-child {
+        margin-left: 124px;
+
+        @include desktop {
+          margin-left: 704px;
+        }
+      }
+
+
+      p {
+        @include RetroLandMayhem;
+        font-size: 11px;
+        line-height: 130%;
+        width: 100px;
+
+        @include desktop {
+          font-size: 16px;
+          width: auto;
+        }
+      }
+
+    }
+  }
+
+
+}

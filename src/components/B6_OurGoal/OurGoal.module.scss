@@ -1,0 +1,50 @@
+@import "../../assets/style/app";
+
+.ourGoal {
+  padding-top: 80px;
+  //padding-left: 24px;
+  //padding-right: 24px;
+
+  @include desktop {
+    padding-top: 130px;
+  }
+
+  .title {
+    @include H2;
+  }
+
+  .text {
+    margin-top: 15px;
+    @include RetroLandMayhem;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #D0D0D0;
+    margin-left: 24px;
+    margin-right: 24px;
+
+    @include desktop {
+      font-size: 16px;
+      width: 872px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  img {
+    margin-top: 16px;
+    display: block;
+    width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+
+    @include desktop {
+      width: 1154px;
+    }
+  }
+
+
+
+}

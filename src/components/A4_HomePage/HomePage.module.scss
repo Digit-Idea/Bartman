@@ -1,0 +1,44 @@
+@import "./../../assets/style/app";
+
+.homePage {
+  .cardWrapper {
+    padding-top: 40px;
+
+    @include desktop {
+      padding-top: 130px;
+    }
+
+    .card {
+      overflow: hidden;
+
+      @include desktop {
+        width: 1270px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 7px solid #8491AF;
+        border-radius: 28px;
+      }
+
+      .bottom {
+        position: relative;
+        background-image: url(../../assets/png/card/back.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding-bottom: 496px;
+
+        @include desktop {
+          padding-bottom: 333px;
+        }
+
+        .bottomInner {
+          width: 100%;
+          height: 100%;
+          position: relative;
+          z-index: 10;
+        }
+      }
+
+    }
+  }
+}

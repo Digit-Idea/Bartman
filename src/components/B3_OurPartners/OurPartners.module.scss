@@ -1,0 +1,64 @@
+@import "../../assets/style/app";
+
+.ourPartners {
+  padding-top: 80px;
+
+  @include desktop {
+    padding-top: 130px;
+  }
+
+  .title {
+    @include H2;
+  }
+
+  .swiper {
+    margin-top: 30px;
+
+    @include desktop {
+      margin-top: 50px;
+    }
+
+    .card {
+      width: 150px;
+      height: 92px;
+      position: relative;
+
+      @include desktop {
+        width: 220px;
+        height: 135px;
+      }
+
+      .backMobile {
+        @include onlyMobile();
+        display: block;
+        width: 150px;
+        height: 92px;
+      }
+
+      .backDesktop {
+        @include onlyDesktop();
+        display: block;
+        width: 220px;
+        height: 135px;
+      }
+
+      .logo {
+        @include absoluteCenter;
+        object-fit: contain;
+        object-position: center;
+        height: 76px;
+        width: 135px;
+
+        @include desktop {
+          height: 76px;
+          width: 210px;
+        }
+      }
+    }
+
+
+
+  }
+
+
+}

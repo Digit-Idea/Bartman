@@ -1,0 +1,83 @@
+@import "../../assets/style/app";
+
+.burgerMenu {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 200;
+  transform: translateX(-101%);
+  transition: 0.3s;
+  background: #0E2457;
+  background-image: url(../../assets/png/A2_BurgerMenu/back.png);
+  background-size: cover;
+
+  &_show {
+    transform: translateX(0%);
+  }
+
+  .closeBtn {
+    @include button;
+    position: absolute;
+    top: 40px;
+    right: 24px;
+
+    img {
+      width: 68px;
+      height: 42px;display: block;
+
+    }
+  }
+
+  .links {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .link {
+      text-decoration: none;
+      @include RetroLandMayhem;
+      font-size: 16px;
+      line-height: 130%;
+      color: #FFF;
+
+      &:not(:first-child) {
+        margin-top: 35px;
+      }
+    }
+  }
+
+  .btn {
+    margin: 40px auto 0;
+    @include RetroLandMayhem;
+    font-size: 16px;
+    line-height: 130%;
+  }
+
+
+  .socialLinks {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+
+    .socialLink {
+      &:not(:first-child) {
+        margin-left: 16px;
+      }
+    }
+  }
+
+  .right {
+    margin-top: 40px;
+    text-align: center;
+    @include RetroLandMayhem;
+    font-size: 13px;
+    line-height: 150%;
+    text-transform: capitalize;
+    color: #BDBDBD;
+  }
+
+
+}
