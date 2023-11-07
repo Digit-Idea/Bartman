@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/Bartman/static/css/main.eb50c6fb.css",
+    "main.js": "/Bartman/static/js/main.920a5a1a.js",
+    "static/css/603.91f719fa.chunk.css": "/Bartman/static/css/603.91f719fa.chunk.css",
+    "static/js/603.3730f27a.chunk.js": "/Bartman/static/js/603.3730f27a.chunk.js",
+    "static/js/787.0642ad7d.chunk.js": "/Bartman/static/js/787.0642ad7d.chunk.js",
+    "static/js/832.ec2ec200.chunk.js": "/Bartman/static/js/832.ec2ec200.chunk.js",
+    "static/media/timer.gif": "/Bartman/static/media/timer.92919b67d600f8254cd4.gif",
+    "static/media/bartman.gif": "/Bartman/static/media/bartman.f094133742ac73405296.gif",
+    "static/media/card3.png": "/Bartman/static/media/card3.ec7fc6556ff695f4598c.png",
+    "static/media/logo.gif": "/Bartman/static/media/logo.856a32ba868b86c5ad3b.gif",
+    "static/media/ourGoal.png": "/Bartman/static/media/ourGoal.2cb0c59f716271eda45e.png",
+    "static/media/back.png": "/Bartman/static/media/back.73dbcb451573d4f231a5.png",
+    "static/media/card2.png": "/Bartman/static/media/card2.16301e4f2238620d6fb6.png",
+    "static/media/card0.png": "/Bartman/static/media/card0.0c80cff8f95aca76eb7d.png",
+    "static/media/card1.png": "/Bartman/static/media/card1.0c80cff8f95aca76eb7d.png",
+    "static/media/8.png": "/Bartman/static/media/8.64e322346580e1e077e9.png",
+    "static/media/6.png": "/Bartman/static/media/6.5ed854182200e2c687da.png",
+    "static/media/2.png": "/Bartman/static/media/2.7ca25d94ac4f87e5b898.png",
+    "static/media/10.png": "/Bartman/static/media/10.d99737b6c2ed7588b7bc.png",
+    "static/media/bartman.png": "/Bartman/static/media/bartman.a32943c163d71ad0735d.png",
+    "static/media/1.png": "/Bartman/static/media/1.80762cf61c8a2f2f0c57.png",
+    "static/media/11.png": "/Bartman/static/media/11.4b6a5a57f8a972156854.png",
+    "static/media/7.png": "/Bartman/static/media/7.00a4504311b36f277287.png",
+    "static/media/3.png": "/Bartman/static/media/3.e995a2fe29d37c126701.png",
+    "static/media/5.png": "/Bartman/static/media/5.3a8f5597a90ed08b838f.png",
+    "static/media/9.png": "/Bartman/static/media/9.ff4290c66132fec8feca.png",
+    "static/media/stars.png": "/Bartman/static/media/stars.ab8f201c377b54505898.png",
+    "static/media/4.png": "/Bartman/static/media/4.a6a3ffec9de0fde5b559.png",
+    "index.html": "/Bartman/index.html",
+    "main.eb50c6fb.css.map": "/Bartman/static/css/main.eb50c6fb.css.map",
+    "main.920a5a1a.js.map": "/Bartman/static/js/main.920a5a1a.js.map",
+    "603.91f719fa.chunk.css.map": "/Bartman/static/css/603.91f719fa.chunk.css.map",
+    "603.3730f27a.chunk.js.map": "/Bartman/static/js/603.3730f27a.chunk.js.map",
+    "787.0642ad7d.chunk.js.map": "/Bartman/static/js/787.0642ad7d.chunk.js.map",
+    "832.ec2ec200.chunk.js.map": "/Bartman/static/js/832.ec2ec200.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eb50c6fb.css",
+    "static/js/main.920a5a1a.js"
+  ]
+}
